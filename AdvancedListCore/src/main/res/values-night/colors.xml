@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white_color">#303030</color>
+    <color name="Gray_Button_pressed_color">#80606060</color>
+</resources>

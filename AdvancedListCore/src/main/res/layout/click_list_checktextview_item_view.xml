@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:minHeight="65dp"
+    android:layout_height="65dp"
+    android:focusable="false" >
+
+    <LinearLayout
+        android:id="@+id/Click_Item_CheckBox_View_Btn_ID"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:orientation="horizontal"
+        style="@style/GeneralClickStyle" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="25dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Click_Item_CheckBox_Text_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/ClickList_Title_Text_size"
+                android:textColor="@drawable/checktextview_text_blue_theme"
+                android:focusable="false"
+                android:text="@string/null_name"/>
+
+            <TextView
+                android:id="@+id/Click_Item_CheckBox_SubText_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:visibility="gone"
+                android:text="@string/null_name"/>
+
+        </LinearLayout>
+
+        <CheckedTextView
+            android:id="@+id/Click_Item_CheckedTextViewBox_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:drawableStart="@drawable/checktextview_blue_theme"
+            android:layout_marginEnd="25dp"/>
+
+        <!--  android:drawableStart="@drawable/mz_btn_check_multiple_color_blue"      -->
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginStart="@dimen/ClickList_Line_Margin_size"
+        android:layout_marginEnd="@dimen/ClickList_Line_Margin_size"
+        android:background="@color/Default_Line_color" />
+
+</LinearLayout>

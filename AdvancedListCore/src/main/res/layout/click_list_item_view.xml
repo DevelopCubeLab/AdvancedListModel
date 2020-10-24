@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:minHeight="65dp"
+    android:layout_height="65dp"
+    android:focusable="false" >
+
+    <LinearLayout
+        android:id="@+id/Click_Item_View_Btn_ID"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:orientation="horizontal"
+        android:clickable="false"
+        style="@style/GeneralClickStyle" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="25dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Click_Item_Text_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/ClickList_Title_Text_size"
+                android:gravity="start"
+                android:textColor="@drawable/clickitem_textview_style"
+                android:focusable="false"
+                android:text="@string/null_name"/>
+
+            <TextView
+                android:id="@+id/Click_Item_SubText_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:focusable="false"
+                android:visibility="gone"
+                android:text="@string/null_name"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/Next_Image_ID"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="25dp"
+            android:focusable="false"
+            android:contentDescription="@string/Next_name"
+            android:tint="?attr/colorControlNormal"
+            android:src="@drawable/arrow_next_normal" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginStart="@dimen/ClickList_Line_Margin_size"
+        android:layout_marginEnd="@dimen/ClickList_Line_Margin_size"
+        android:background="@color/Default_Line_color" />
+
+</LinearLayout>

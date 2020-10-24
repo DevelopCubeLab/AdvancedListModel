@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="GeneralClickStyle" parent="@style/Widget.DeviceDefault.Light.Button.Color.Blue">
+        <item name="android:background">@drawable/general_click_style</item>
+    </style>
+
+    <style name="BlueButtonTheme">
+        <!-- 点击颜色 -->
+        <item name="colorControlHighlight">@color/Theme_Blue_Click_color</item>
+        <!-- 背景颜色 -->
+        <item name="colorButtonNormal">@color/Theme_Blue_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white_color</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:selectableItemBackground">@null</item>
+        <item name="android:layout_marginLeft">@dimen/User_EditText_Margin_size</item>
+        <item name="android:layout_marginRight">@dimen/User_EditText_Margin_size</item>
+
+    </style>
+
+    <style name="EditTextBlueTheme">
+        <item name="colorControlNormal">@color/Edittext_Line_Normal_color</item>
+        <item name="colorControlActivated">@color/Theme_Blue_color</item>
+
+        <!-- TextView -->
+        <item name="android:textCursorDrawable">@drawable/mz_text_cursor_light_color_blue</item>
+        <item name="android:textColorHighlight">@color/mz_highlighted_text_light_color_blue</item>
+        <item name="android:textSelectHandleLeft">@drawable/mz_text_select_handle_left_color_blue</item>
+        <item name="android:textSelectHandleRight">@drawable/mz_text_select_handle_right_color_blue</item>
+        <item name="android:textColorLink">@color/mz_theme_color_blue</item>
+    </style>
+
+    <!-- CheckBox Coral 样式 -->
+    <style name="CheckBoxCoralTheme" parent="@android:style/Widget.DeviceDefault.Light.CompoundButton.CheckBox" >
+        <item name="android:button">@drawable/checkbox_coral_theme</item>
+    </style>
+
+</resources>

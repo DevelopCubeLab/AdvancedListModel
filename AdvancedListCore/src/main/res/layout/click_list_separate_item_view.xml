@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/ClickList_Line_Margin_size"
+    android:layout_marginEnd="@dimen/ClickList_Line_Margin_size" >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Click_Item_Separate_Text_ID"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:text="@string/null_name"/>
+
+        <LinearLayout
+            android:id="@+id/Click_Item_Separate_Attach_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/Click_Item_Separate_Attach_Left_Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginEnd="15dp"
+                android:gravity="center"
+                android:text="@string/null_name"/>
+
+            <TextView
+                android:id="@+id/Click_Item_Separate_Attach_Right_Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginEnd="-5dp"
+                android:gravity="center"
+                android:text="@string/null_name"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:focusable="false"
+                style="@style/BlueButtonTheme"
+                android:text="@string/null_name"
+                android:textSize="14sp"
+                android:visibility="invisible"
+                android:layout_marginEnd="25dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:background="@color/Default_Line_color" />
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/Click_Item_Drop_ViewID"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        style="@style/GeneralClickStyle" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:id="@+id/Click_Item_Drop_ImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/indicator_expanded_normal"
+                android:tint="?attr/colorControlNormal"
+                android:contentDescription="@string/Show_Details_name"
+                android:rotation="90"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/Click_Item_Drop_TitleText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="?android:attr/textColorPrimary"
+                android:layout_marginEnd="@dimen/ClickList_Line_Margin_size"
+                android:textSize="16sp"
+                android:text="@string/null_name"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Click_Item_Drop_DetailView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:visibility="gone"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/Click_Item_Drop_DetailText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="@dimen/ClickList_Line_Margin_size"
+                android:layout_marginBottom="5dp"
+                android:textSize="16sp"
+                android:text="@string/null_name" />
+
+<!--            <Button-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="50dp"-->
+<!--                android:layout_marginEnd="@dimen/ClickList_Line_Margin_size"-->
+<!--                android:layout_marginBottom="10dp"-->
+<!--                android:text="@string/null_name"-->
+<!--                style="@style/BlueButtonTheme"/>-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginStart="@dimen/ClickList_Line_Margin_size"
+        android:layout_marginEnd="@dimen/ClickList_Line_Margin_size"
+        android:background="@color/Default_Line_color" />
+
+</LinearLayout>

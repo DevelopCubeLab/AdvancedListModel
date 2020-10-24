@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ClickList_View_Height">65dp</dimen>
+    <dimen name="ClickList_Title_Text_size">19sp</dimen>
+    <dimen name="ClickList_Line_Margin_size">15dp</dimen>
+    <dimen name="User_EditText_Margin_size">25dp</dimen>
+    <dimen name="General_Margin_size">25dp</dimen>
+    <dimen name="SingleClickItemHeight_size">50dp</dimen>
+</resources>

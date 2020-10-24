@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:minHeight="70dp"
+    android:layout_height="70dp"
+    android:gravity="center"
+    android:focusable="false" >
+
+    <Button
+        android:id="@+id/Click_Item_Only_Button_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/BlueButtonTheme"
+        android:text="@string/null_name" />
+
+</LinearLayout>

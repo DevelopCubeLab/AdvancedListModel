@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:minHeight="65dp"
+    android:layout_height="65dp"
+    android:focusable="false" >
+
+    <LinearLayout
+        android:id="@+id/Click_Item_Switch_View_Btn_ID"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:orientation="horizontal"
+        style="@style/GeneralClickStyle" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="25dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Click_Item_Switch_Text_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/ClickList_Title_Text_size"
+                android:textColor="@drawable/clickitem_textview_style"
+                android:focusable="false"
+                android:text="@string/null_name"/>
+
+            <TextView
+                android:id="@+id/Click_Item_Switch_SubText_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:focusable="false"
+                android:visibility="gone"
+                android:text="@string/null_name"/>
+
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/Click_Item_Switch_Button_ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:thumb="@drawable/switch_button_style"
+            android:track="@drawable/mz_switch_anim_bg_default"
+            android:focusable="false"
+            android:switchMinWidth="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="25dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@color/Default_Line_color" />
+
+</LinearLayout>

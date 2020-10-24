@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white_color">#FFF</color>
+    <color name="colorBlack">#000</color>
+    <color name="Default_Line_color">#CACACA</color>
+    <color name="Theme_Blue_Click_color">#2388CF</color>
+    <color name="Theme_Blue_color">#FF32A5E7</color>
+    <color name="View_disable_color">#BDBDBD</color>
+    <color name="Gray_Button_pressed_color">#80DBDBDB</color>
+    <color name="Edittext_Line_Normal_color">#BDBDBD</color>
+    <color name="Switch_Normal_color">#CACACA</color>
+</resources>

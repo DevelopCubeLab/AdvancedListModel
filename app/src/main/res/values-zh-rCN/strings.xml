@@ -23,5 +23,7 @@
     <string name="Attach_Disable_name">\'>\'已隐藏</string>
     <string name="Click_str">"点击ID "</string>
     <string name="Separate_Item_name">分割线items</string>
+    <string name="Others_name">其他</string>
+    <string name="About_name">关于</string>
 
 </resources>

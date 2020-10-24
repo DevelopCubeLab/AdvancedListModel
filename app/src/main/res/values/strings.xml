@@ -26,6 +26,9 @@
 
     <string name="Click_str">Click ID </string>
 
+    <string name="Others_name">Others</string>
+    <string name="About_name">About</string>
+
 
 
 </resources>

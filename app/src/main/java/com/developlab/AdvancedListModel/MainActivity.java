@@ -74,6 +74,9 @@ public class MainActivity extends AppCompatActivity {
         demoDataList.add(new ListItemData<>(10,getString(R.string.Drop_List_Item_name)));
         demoDataList.add(new ListItemData<>(11,getString(R.string.Only_Text_Item_name)));
 
+        demoDataList.add(new SeparateItemData(-5, getString(R.string.Others_name)));
+        demoDataList.add(new ListItemData<>(-6, getString(R.string.About_name)));
+
         //En: Set up data set for AdvancedListAdapter;
         demoListAdapter.setList(demoDataList);
 

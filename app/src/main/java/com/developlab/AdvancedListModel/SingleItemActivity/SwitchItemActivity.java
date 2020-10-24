@@ -73,7 +73,7 @@ public class SwitchItemActivity extends AppCompatActivity {
             }
         });
 
-        switchItemsAdapter.setOnCheckedChangeListener(new AdvancedListAdapter.OnCheckedChangeListener<RecyclerView.ViewHolder, TurnViewListItemData>() {
+        switchItemsAdapter.setOnCheckedChangeListener(new AdvancedListAdapter.OnCheckedChangeListener<SwitchListItemViewHolder, TurnViewListItemData>() {
             //En: This method can monitor the button state change;
             //Zh: 这个方法可以监测到按钮状态改变;
 
@@ -97,7 +97,7 @@ public class SwitchItemActivity extends AppCompatActivity {
              *                           true = 开启 ; false = 关闭;
              */
             @Override
-            public void OnCheckedChange(int position, RecyclerView.ViewHolder holder, TurnViewListItemData currentModel, int buttonId, CompoundButton buttonView, boolean isChecked) {
+            public void OnCheckedChange(int position, SwitchListItemViewHolder holder, TurnViewListItemData currentModel, int buttonId, CompoundButton buttonView, boolean isChecked) {
 
                 Toast.makeText(SwitchItemActivity.this, getString(R.string.Button_Status_Change_name) + isChecked, Toast.LENGTH_SHORT).show();
             }

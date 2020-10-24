@@ -14,6 +14,7 @@ import com.developlab.AdvancedListModel.SingleItemActivity.ButtonItemActivity;
 import com.developlab.AdvancedListModel.SingleItemActivity.CheckBoxItemActivity;
 import com.developlab.AdvancedListModel.SingleItemActivity.EditTextItemActivity;
 import com.developlab.AdvancedListModel.SingleItemActivity.NormalItemActivity;
+import com.developlab.AdvancedListModel.SingleItemActivity.OnlyButtonItemsActivity;
 import com.developlab.AdvancedListModel.SingleItemActivity.SwitchItemActivity;
 import com.developlab.advancedlistcore.Adapter.AdvancedListAdapter;
 import com.developlab.advancedlistcore.Model.ListItemData;
@@ -102,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
                     case 2: startActivity(new Intent(MainActivity.this, CheckBoxItemActivity.class));break;
                     case 3: startActivity(new Intent(MainActivity.this, ButtonItemActivity.class));break;
                     case 4: startActivity(new Intent(MainActivity.this, EditTextItemActivity.class));break;
-//                    case 3: startActivity(new Intent(MainActivity.this, ));break;
+                    case 5: startActivity(new Intent(MainActivity.this, OnlyButtonItemsActivity.class));break;
 //                    case 4: startActivity(new Intent(MainActivity.this, ));break;
 //                    case 5: startActivity(new Intent(MainActivity.this, ));break;
 //                    case 6: startActivity(new Intent(MainActivity.this, ));break;

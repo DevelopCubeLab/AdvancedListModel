@@ -15,6 +15,7 @@ import com.developlab.AdvancedListModel.R;
 import com.developlab.advancedlistcore.Adapter.AdvancedListAdapter;
 import com.developlab.advancedlistcore.Model.TurnViewListItemData;
 import com.developlab.advancedlistcore.PublicInterface.AdvanceListModelInterface;
+import com.developlab.advancedlistcore.ViewHolder.CheckBoxListItemViewHolder;
 
 import java.util.ArrayList;
 
@@ -72,7 +73,7 @@ public class CheckBoxItemActivity extends AppCompatActivity {
             }
         });
 
-        checkBoxItemsAdapter.setOnCheckedChangeListener(new AdvancedListAdapter.OnCheckedChangeListener<RecyclerView.ViewHolder, TurnViewListItemData>() {
+        checkBoxItemsAdapter.setOnCheckedChangeListener(new AdvancedListAdapter.OnCheckedChangeListener<CheckBoxListItemViewHolder, TurnViewListItemData>() {
             //En: This method can monitor the button state change;
             //Zh: 这个方法可以监测到按钮状态改变;
 
@@ -96,7 +97,7 @@ public class CheckBoxItemActivity extends AppCompatActivity {
              *                           true = 开启 ; false = 关闭;
              */
             @Override
-            public void OnCheckedChange(int position, RecyclerView.ViewHolder holder, TurnViewListItemData currentModel, int buttonId, CompoundButton buttonView, boolean isChecked) {
+            public void OnCheckedChange(int position, CheckBoxListItemViewHolder holder, TurnViewListItemData currentModel, int buttonId, CompoundButton buttonView, boolean isChecked) {
 
                 Toast.makeText(CheckBoxItemActivity.this, getString(R.string.Button_Status_Change_name) + isChecked, Toast.LENGTH_SHORT).show();
             }

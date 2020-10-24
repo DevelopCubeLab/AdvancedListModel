@@ -28,5 +28,7 @@
     <string name="Turn_On_name">按钮开</string>
     <string name="Turn_Off_name">按钮关</string>
     <string name="Button_Status_Change_name">"开关状态改变 "</string>
+    <string name="Text_name">文本</string>
+    <string name="Button_Text_name">按钮文本</string>
 
 </resources>

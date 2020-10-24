@@ -25,6 +25,8 @@
     <string name="Attach_Disable_name">Attach \'>\' disable</string>
     <string name="Turn_On_name">Turn on</string>
     <string name="Turn_Off_name">Turn off</string>
+    <string name="Text_name">Text</string>
+    <string name="Button_Text_name">Button Text</string>
 
     <string name="Click_str">Click ID </string>
     <string name="Button_Status_Change_name">Button Status Change </string>

@@ -2,9 +2,11 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <style name="GeneralClickStyle" parent="@style/Widget.DeviceDefault.Light.Button.Color.Blue">
         <item name="android:background">@drawable/general_click_style</item>
+        <!-- Button styles 蓝色按钮样式 采用API中的样式-->
+        <item name="android:buttonStyle">@style/Widget.DeviceDefault.Light.Button.Color.Blue</item>
     </style>
 
-    <style name="BlueButtonTheme">
+    <style name="BlueButtonTheme" parent="@android:style/Widget.DeviceDefault.Light.Button">
         <!-- 点击颜色 -->
         <item name="colorControlHighlight">@color/Theme_Blue_Click_color</item>
         <!-- 背景颜色 -->
@@ -16,6 +18,7 @@
         <item name="android:layout_marginLeft">@dimen/User_EditText_Margin_size</item>
         <item name="android:layout_marginRight">@dimen/User_EditText_Margin_size</item>
 
+        <item name="android:background">@drawable/mz_btn_corner_default_color_blue</item>
     </style>
 
     <style name="EditTextBlueTheme">

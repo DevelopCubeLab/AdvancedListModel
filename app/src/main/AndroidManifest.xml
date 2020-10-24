@@ -22,6 +22,7 @@
         <activity android:name=".SingleItemActivity.EditTextItemActivity" />
         <activity android:name=".SingleItemActivity.SwitchItemActivity" />
         <activity android:name=".SingleItemActivity.NormalItemActivity" />
+        <activity android:name=".SingleItemActivity.OnlyButtonItemsActivity" />
 
     </application>
 

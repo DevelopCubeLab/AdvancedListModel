@@ -17,6 +17,11 @@
             </intent-filter>
 
         </activity>
+        <activity android:name=".SingleItemActivity.ButtonItemActivity" />
+        <activity android:name=".SingleItemActivity.CheckBoxItemActivity" />
+        <activity android:name=".SingleItemActivity.EditTextItemActivity" />
+        <activity android:name=".SingleItemActivity.SwitchItemActivity" />
+        <activity android:name=".SingleItemActivity.NormalItemActivity" />
 
     </application>
 

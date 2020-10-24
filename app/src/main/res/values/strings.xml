@@ -1,22 +1,31 @@
 <resources>
     <string name="app_name">AdvancedListDemo</string>
 
+    <string name="Separate_Item_name">Separate items</string>
     <string name="Normal_Item_name">Normal items</string>
     <string name="Switch_Item_name">Switch items</string>
     <string name="CheckBox_Item_name">CheckBox items</string>
     <string name="Button_Item_name">Items with a button</string>
-    <string name="CheckedTextView_Item_name">CheckedTextView items</string>
+    <string name="EditText_Item_name">Items with a EditText</string>
+    <string name="Only_Button_Item_name">Items with only one Button</string>
     <string name="Double_Button_Item_name">Items with double button</string>
     <string name="Double_CheckBox_Item_name">Items with double CheckBox</string>
-    <string name="Double_Line_Text_name">Double line text</string>
+    <string name="CheckedTextView_Item_name">CheckedTextView items</string>
     <string name="Drop_Detail_Item_name">Drop detail items</string>
     <string name="Drop_List_Item_name">Drop list items</string>
-    <string name="EditText_Item_name">Items with a EditText</string>
+    <string name="Only_Text_Item_name">Items with only text</string>
+
     <string name="Item_Disable_name">Item is disabled</string>
     <string name="Multiple_Item_name">Multiple items</string>
 
-    <string name="Only_Button_Item_name">Items with only one Button</string>
-    <string name="Only_Text_Item_name">Items with only text</string>
     <string name="Single_Style_Items_name">Single style items</string>
+    <string name="Single_Line_Text_name">Single line text</string>
+    <string name="Double_Line_Text_name">Double line text</string>
+    <string name="Additional_Text_name">Additional text</string>
+    <string name="Attach_Disable_name">Attach \'>\' disable</string>
+
+    <string name="Click_str">Click ID </string>
+
+
 
 </resources>

@@ -259,6 +259,8 @@ public class AdvancedListAdapter<T extends AdvanceListModelInterface> extends Re
 
             viewHolder.ItemText.setText(CurrentModel.getTitleText());
 
+            viewHolder.setItemViewEnable(CurrentModel.getItemEnable());
+
             //判断是否双行文字显示;
             viewHolder.setSubText(CurrentModel.getEnableSubText(),CurrentModel.getSubText());
 

@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <include layout="@layout/general_actionbar_view" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/main_recyclerview_id"
         android:layout_width="match_parent"

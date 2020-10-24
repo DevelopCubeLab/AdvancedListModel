@@ -24,6 +24,12 @@ public class ListItemViewHolder extends RecyclerView.ViewHolder {
         AttachImage = itemView.findViewById(R.id.Next_Image_ID);
     }
 
+    public void setItemViewEnable(boolean enabled) {
+        itemClick.setEnabled(enabled);
+        ItemText.setEnabled(enabled);
+        SubText.setEnabled(enabled);
+    }
+
     public void setSubText(boolean visibility, String subText) {
         if (visibility) {
             SubText.setVisibility(View.VISIBLE);

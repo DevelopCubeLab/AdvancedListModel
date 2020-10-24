@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AdvancedListDemo</string>
+    <string name="app_name">AdvancedList演示程序</string>
 
     <string name="Button_Item_name">带一个按钮的items</string>
     <string name="CheckBox_Item_name">带Switch开关的items</string>
@@ -18,5 +18,10 @@
     <string name="Only_Text_Item_name">只有文字的items</string>
     <string name="Single_Style_Items_name">单一样式items</string>
     <string name="Switch_Item_name">带Switch开关的items</string>
+    <string name="Single_Line_Text_name">单行文本显示</string>
+    <string name="Additional_Text_name">附加文本</string>
+    <string name="Attach_Disable_name">\'>\'已隐藏</string>
+    <string name="Click_str">"点击ID "</string>
+    <string name="Separate_Item_name">分割线items</string>
 
 </resources>

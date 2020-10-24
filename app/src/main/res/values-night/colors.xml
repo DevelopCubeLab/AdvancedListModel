@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ActionBar_Background_Color">#222222</color>
+    <color name="ActionBar_Text_Color">#FFF</color>
+</resources>

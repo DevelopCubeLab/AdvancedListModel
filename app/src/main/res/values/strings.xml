@@ -23,8 +23,11 @@
     <string name="Double_Line_Text_name">Double line text</string>
     <string name="Additional_Text_name">Additional text</string>
     <string name="Attach_Disable_name">Attach \'>\' disable</string>
+    <string name="Turn_On_name">Turn on</string>
+    <string name="Turn_Off_name">Turn off</string>
 
     <string name="Click_str">Click ID </string>
+    <string name="Button_Status_Change_name">Button Status Change </string>
 
     <string name="Others_name">Others</string>
     <string name="About_name">About</string>

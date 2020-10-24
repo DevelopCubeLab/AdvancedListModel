@@ -4,4 +4,4 @@
 
 正在编写文档和演示
 
-[README-English➡]️(https://github.com/DevelopCubeLab/AdvancedListModel)
+[README-English➡](https://github.com/DevelopCubeLab/AdvancedListModel)

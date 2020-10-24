@@ -3,7 +3,7 @@
     <string name="app_name">AdvancedList演示程序</string>
 
     <string name="Button_Item_name">带一个按钮的items</string>
-    <string name="CheckBox_Item_name">带Switch开关的items</string>
+    <string name="CheckBox_Item_name">带CheckBox开关的items</string>
     <string name="CheckedTextView_Item_name">可选择的items</string>
     <string name="Double_Button_Item_name">带两个按钮的items</string>
     <string name="Double_CheckBox_Item_name">带两个CheckBox的items</string>
@@ -25,5 +25,8 @@
     <string name="Separate_Item_name">分割线items</string>
     <string name="Others_name">其他</string>
     <string name="About_name">关于</string>
+    <string name="Turn_On_name">按钮开</string>
+    <string name="Turn_Off_name">按钮关</string>
+    <string name="Button_Status_Change_name">"开关状态改变 "</string>
 
 </resources>

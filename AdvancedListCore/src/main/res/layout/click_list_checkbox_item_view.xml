@@ -45,6 +45,7 @@
 
         <CheckBox
             android:id="@+id/Click_Item_CheckBox_ID"
+            style="@style/Widget.DeviceDefault.Light.CompoundButton.CheckBox.Color.Blue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:focusable="false"

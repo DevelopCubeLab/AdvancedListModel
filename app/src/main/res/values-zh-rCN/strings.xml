@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AdvancedListDemo</string>
+
+    <string name="Button_Item_name">带一个按钮的items</string>
+    <string name="CheckBox_Item_name">带Switch开关的items</string>
+    <string name="CheckedTextView_Item_name">可选择的items</string>
+    <string name="Double_Button_Item_name">带两个按钮的items</string>
+    <string name="Double_CheckBox_Item_name">带两个CheckBox的items</string>
+    <string name="Double_Line_Text_name">双行文本显示</string>
+    <string name="Drop_Detail_Item_name">下拉详细的items</string>
+    <string name="Drop_List_Item_name">下拉列表的items</string>
+    <string name="EditText_Item_name">带文本框的items</string>
+    <string name="Item_Disable_name">item已经被禁用</string>
+    <string name="Multiple_Item_name">多种items</string>
+    <string name="Normal_Item_name">普通的items</string>
+    <string name="Only_Button_Item_name">只有一个按钮的items</string>
+    <string name="Only_Text_Item_name">只有文字的items</string>
+    <string name="Single_Style_Items_name">单一样式items</string>
+    <string name="Switch_Item_name">带Switch开关的items</string>
+
+</resources>

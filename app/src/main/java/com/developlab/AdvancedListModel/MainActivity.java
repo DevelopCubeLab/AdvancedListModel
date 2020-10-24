@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.developlab.advancedlistcore.Adapter.AdvancedListAdapter;
 import com.developlab.advancedlistcore.Model.ListItemData;
+import com.developlab.advancedlistcore.Model.SeparateItemData;
 import com.developlab.advancedlistcore.PublicInterface.AdvanceListModelInterface;
 
 import java.util.ArrayList;
@@ -41,8 +42,13 @@ public class MainActivity extends AppCompatActivity {
 
         //En: Create an ArrayList to initialize data;
         ArrayList<AdvanceListModelInterface> demoDataList = new ArrayList<>();
-        ListItemData data1 = new ListItemData(0, "列表1");
+        SeparateItemData data0 = new SeparateItemData(-1, getString(R.string.Single_Style_Items_name));
+        demoDataList.add(data0);
+        ListItemData data1 = new ListItemData(0, getString(R.string.Normal_Item_name));
         demoDataList.add(data1);
+
+        demoDataList.add(new ListItemData<>(1,getString(R.string.Switch_Item_name)));
+        demoDataList.add(new ListItemData<>(2,getString(R.string.CheckBox_Item_name)));
 
         //En: Set up data set for AdvancedListAdapter;
         demoListAdapter.setList(demoDataList);

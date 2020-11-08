@@ -30,5 +30,9 @@
     <string name="Button_Status_Change_name">"开关状态改变 "</string>
     <string name="Text_name">文本</string>
     <string name="Button_Text_name">按钮文本</string>
+    <string name="Switch_Light_Dark_Mode_name">切换深色模式/正常模式</string>
+    <string name="Title_Text_name">标题文本</string>
+    <string name="Option_1_name">选项1</string>
+    <string name="Option_2_name">选项2</string>
 
 </resources>

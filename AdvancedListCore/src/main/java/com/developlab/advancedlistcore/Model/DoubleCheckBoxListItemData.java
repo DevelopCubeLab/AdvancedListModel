@@ -22,6 +22,15 @@ public class DoubleCheckBoxListItemData extends AdvancedBaseDataModel {
         ButtonText = buttonText;
     }
 
+    public DoubleCheckBoxListItemData(int ID, String titleText, boolean leftCheckBoxChecked, boolean rightCheckBoxChecked, String buttonText) {
+        super(ID, DoubleCheckBoxListItemTypeID, titleText);
+        this.leftCheckBoxChecked = leftCheckBoxChecked;
+        this.rightCheckBoxChecked = rightCheckBoxChecked;
+        ButtonEnable = true;
+        setItemEnable(true);
+        ButtonText = buttonText;
+    }
+
     public DoubleCheckBoxListItemData(int ID, String titleText, String subText, boolean leftCheckBoxChecked, boolean rightCheckBoxChecked, String buttonText) {
         super(ID, DoubleCheckBoxListItemTypeID, titleText, subText);
         this.leftCheckBoxChecked = leftCheckBoxChecked;

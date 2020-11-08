@@ -27,10 +27,23 @@
     <string name="Turn_Off_name">Turn off</string>
     <string name="Text_name">Text</string>
     <string name="Button_Text_name">Button Text</string>
+    <string name="Title_Text_name">Title text</string>
+    <string name="Option_1_name">Option 1</string>
+    <string name="Option_2_name">Option 2</string>
 
     <string name="Click_str">Click ID </string>
     <string name="Button_Status_Change_name">Button Status Change </string>
 
+    <string name="Demo_Text1">Demo Text RecyclerView overview</string>
+    <string name="Demo_Text2">The RecyclerView widget is a more advanced and flexible version of ListView.\nIn the RecyclerView model, several different components work together to display your data. The overall container for your user interface is a RecyclerView object that you add to your layout. The RecyclerView fills itself with views provided by a layout manager that you provide. You can use one of our standard layout managers (such as LinearLayoutManager or GridLayoutManager), or implement your own.\nThe views in the list are represented by view holder objects. These objects are instances of a class you define by extending RecyclerView.ViewHolder. Each view holder is in charge of displaying a single item with a view. For example, if your list shows music collection, each view holder might represent a single album. The RecyclerView creates only as many view holders as are needed to display the on-screen portion of the dynamic content, plus a few extra. As the user scrolls through the list, the RecyclerView takes the off-screen views and rebinds them to the data which is scrolling onto the screen.\nThe view holder objects are managed by an adapter, which you create by extending RecyclerView.Adapter. The adapter creates view holders as needed. The adapter also binds the view holders to their data. It does this by assigning the view holder to a position, and calling the adapter\'s onBindViewHolder() method. That method uses the view holder\'s position to determine what the contents should be, based on its list position.</string>
+    <string name="Demo_Text3">This RecyclerView model does a lot of optimization work so you don\'t have to:
+
+When the list is first populated, it creates and binds some view holders on either side of the list. For example, if the view is displaying list positions 0 through 9, the RecyclerView creates and binds those view holders, and might also create and bind the view holder for position 10. That way, if the user scrolls the list, the next element is ready to display.
+As the user scrolls the list, the RecyclerView creates new view holders as necessary. It also saves the view holders which have scrolled off-screen, so they can be reused. If the user switches the direction they were scrolling, the view holders which were scrolled off the screen can be brought right back. On the other hand, if the user keeps scrolling in the same direction, the view holders which have been off-screen the longest can be re-bound to new data. The view holder does not need to be created or have its view inflated; instead, the app just updates the view\'s contents to match the new item it was bound to.
+When the displayed items change, you can notify the adapter by calling an appropriate RecyclerView.Adapter.notify…() method. The adapter\'s built-in code then rebinds just the affected items.
+</string>
+
+    <string name="Switch_Light_Dark_Mode_name">Switch Dark Theme/Normal Mode</string>
     <string name="Others_name">Others</string>
     <string name="About_name">About</string>
 

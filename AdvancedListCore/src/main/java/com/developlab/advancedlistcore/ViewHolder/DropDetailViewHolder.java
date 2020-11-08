@@ -31,6 +31,17 @@ public class DropDetailViewHolder extends RecyclerView.ViewHolder {
         DetailText = itemView.findViewById(R.id.Click_Item_Drop_DetailText);
     }
 
+    public void setDropView(boolean show) {
+        dropOn = show;
+        if (dropOn) {
+            DropView.setVisibility(View.VISIBLE);
+            ShowDetailBtn.animate().rotation(180);
+        } else {
+            DropView.setVisibility(View.GONE);
+            ShowDetailBtn.animate().rotation(90);
+        }
+    }
+
     public void switchDropView() {
         if (dropOn) {
 

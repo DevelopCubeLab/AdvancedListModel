@@ -21,6 +21,7 @@ import com.developlab.advancedlistcore.Model.AdvancedBaseDataModel;
 import com.developlab.advancedlistcore.Model.ButtonListItemData;
 import com.developlab.advancedlistcore.Model.DoubleButtonListItemData;
 import com.developlab.advancedlistcore.Model.DoubleCheckBoxListItemData;
+import com.developlab.advancedlistcore.Model.DropDetailItemData;
 import com.developlab.advancedlistcore.Model.DropListItemData;
 import com.developlab.advancedlistcore.Model.EditTextListItemData;
 import com.developlab.advancedlistcore.Model.ListItemData;
@@ -641,11 +642,13 @@ public class AdvancedListAdapter<T extends AdvanceListModelInterface> extends Re
 
         if (viewType == DropDetailListItemTypeID) {
 
-            AdvancedBaseDataModel CurrentModel = (AdvancedBaseDataModel) AdvancedListData.get(position);
+            DropDetailItemData CurrentModel = (DropDetailItemData) AdvancedListData.get(position);
             final DropDetailViewHolder viewHolder = (DropDetailViewHolder) holder;
 
             viewHolder.ItemText.setText(CurrentModel.getTitleText());
             viewHolder.DetailText.setText(CurrentModel.getSubText());
+
+            viewHolder.setDropView(CurrentModel.isShowDetail());
 
             viewHolder.itemClick.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -653,6 +656,9 @@ public class AdvancedListAdapter<T extends AdvanceListModelInterface> extends Re
 
                     //切换显示状态;
                     viewHolder.switchDropView();
+                    //标记数据状态;
+                    CurrentModel.toggleDetail();
+                    AdvancedListData.set(position, (T) CurrentModel);
                 }
             });
         }
@@ -901,11 +907,6 @@ public class AdvancedListAdapter<T extends AdvanceListModelInterface> extends Re
      * 更改Item的数据;
      * @param position  位置信息;
      * @param data 更新的数据;
-     *             @NotNull 依赖重复
-     *             Duplicate class org.intellij.lang.annotations.Flow found in modules annotations-15.0.jar
-     *             (org.jetbrains:annotations:15.0) and annotations-java5-15.0.jar
-     *             (org.jetbrains:annotations-java5:15.0)
-     *             想办法解决下 暂时先去掉NotNull;
      */
     public void changeItemData(int position, T data) {
 

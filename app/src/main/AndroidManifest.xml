@@ -23,6 +23,13 @@
         <activity android:name=".SingleItemActivity.SwitchItemActivity" />
         <activity android:name=".SingleItemActivity.NormalItemActivity" />
         <activity android:name=".SingleItemActivity.OnlyButtonItemsActivity" />
+        <activity android:name=".SingleItemActivity.DoubleButtonItemsActivity" />
+        <activity android:name=".SingleItemActivity.DoubleCheckBoxItemsActivity" />
+        <activity android:name=".SingleItemActivity.CheckTextViewItemsActivity" />
+        <activity android:name=".SingleItemActivity.DropDetailItemActivity" />
+        <activity android:name=".SingleItemActivity.DropListItemActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".SingleItemActivity.OnlyTextActivity" />
 
     </application>
 

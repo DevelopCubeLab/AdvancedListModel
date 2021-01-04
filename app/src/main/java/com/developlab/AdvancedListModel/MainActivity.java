@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatDelegate;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.developlab.AdvancedListModel.MultItemsActivity.MultipleItemsActivity1;
 import com.developlab.AdvancedListModel.SingleItemActivity.ButtonItemActivity;
 import com.developlab.AdvancedListModel.SingleItemActivity.CheckBoxItemActivity;
 import com.developlab.AdvancedListModel.SingleItemActivity.CheckTextViewItemsActivity;
@@ -22,7 +23,7 @@ import com.developlab.AdvancedListModel.SingleItemActivity.DropListItemActivity;
 import com.developlab.AdvancedListModel.SingleItemActivity.EditTextItemActivity;
 import com.developlab.AdvancedListModel.SingleItemActivity.NormalItemActivity;
 import com.developlab.AdvancedListModel.SingleItemActivity.OnlyButtonItemsActivity;
-import com.developlab.AdvancedListModel.SingleItemActivity.OnlyTextActivity;
+import com.developlab.AdvancedListModel.SingleItemActivity.OnlyTextItemActivity;
 import com.developlab.AdvancedListModel.SingleItemActivity.SwitchItemActivity;
 import com.developlab.advancedlistcore.Adapter.AdvancedListAdapter;
 import com.developlab.advancedlistcore.Model.ListItemData;
@@ -70,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         demoDataList.add(data1);
 
         //En: Add data;
-        //Zh: ;
+        //Zh: 添加数据;
         demoDataList.add(new ListItemData<>(1,getString(R.string.Switch_Item_name)));
         demoDataList.add(new ListItemData<>(2,getString(R.string.CheckBox_Item_name)));
         demoDataList.add(new ListItemData<>(3,getString(R.string.Button_Item_name)));
@@ -82,6 +83,9 @@ public class MainActivity extends AppCompatActivity {
         demoDataList.add(new ListItemData<>(9,getString(R.string.Drop_Detail_Item_name)));
         demoDataList.add(new ListItemData<>(10,getString(R.string.Drop_List_Item_name)));
         demoDataList.add(new ListItemData<>(11,getString(R.string.Only_Text_Item_name)));
+
+        demoDataList.add(new SeparateItemData(-2, getString(R.string.Multiple_Item_name)));
+        demoDataList.add(new ListItemData<>(12, getString(R.string.Multiple_Item_name) + " 1"));
 
         demoDataList.add(new SeparateItemData(-5, getString(R.string.Others_name)));
         demoDataList.add(new ListItemData<>(-6, getString(R.string.Switch_Light_Dark_Mode_name)));
@@ -124,7 +128,8 @@ public class MainActivity extends AppCompatActivity {
                     case 8: startActivity(new Intent(MainActivity.this, CheckTextViewItemsActivity.class));break;
                     case 9: startActivity(new Intent(MainActivity.this, DropDetailItemActivity.class));break;
                     case 10: startActivity(new Intent(MainActivity.this, DropListItemActivity.class));break;
-                    case 11: startActivity(new Intent(MainActivity.this, OnlyTextActivity.class));break;
+                    case 11: startActivity(new Intent(MainActivity.this, OnlyTextItemActivity.class));break;
+                    case 12: startActivity(new Intent(MainActivity.this, MultipleItemsActivity1.class));break;
                 }
             }
         });

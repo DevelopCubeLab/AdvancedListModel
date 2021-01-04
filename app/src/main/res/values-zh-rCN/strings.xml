@@ -34,5 +34,6 @@
     <string name="Title_Text_name">标题文本</string>
     <string name="Option_1_name">选项1</string>
     <string name="Option_2_name">选项2</string>
+    <string name="Option_name">选项</string>
 
 </resources>

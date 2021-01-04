@@ -29,7 +29,8 @@
         <activity android:name=".SingleItemActivity.DropDetailItemActivity" />
         <activity android:name=".SingleItemActivity.DropListItemActivity" />
         <activity android:name=".AboutActivity" />
-        <activity android:name=".SingleItemActivity.OnlyTextActivity" />
+        <activity android:name=".SingleItemActivity.OnlyTextItemActivity" />
+        <activity android:name=".MultItemsActivity.MultipleItemsActivity1" />
 
     </application>
 

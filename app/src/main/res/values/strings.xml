@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">AdvancedListDemo</string>
 
+    <!--  Single type text  -->
     <string name="Separate_Item_name">Separate items</string>
     <string name="Normal_Item_name">Normal items</string>
     <string name="Switch_Item_name">Switch items</string>
@@ -28,6 +29,7 @@
     <string name="Text_name">Text</string>
     <string name="Button_Text_name">Button Text</string>
     <string name="Title_Text_name">Title text</string>
+    <string name="Option_name">Option</string>
     <string name="Option_1_name">Option 1</string>
     <string name="Option_2_name">Option 2</string>
 
